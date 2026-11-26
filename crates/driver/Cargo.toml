@@ -1,0 +1,27 @@
+[package]
+name = "driver"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+lexer = { path = "../lexer" }
+parser = { path = "../parser" }
+ast = { path = "../ast" }
+diagnostics = { path = "../diagnostics" }
+resolver = { path = "../resolver" }
+ty = { path = "../ty" }
+borrow = { path = "../borrow" }
+hir = { path = "../hir" }
+codegen = { path = "../codegen" }
+manifest = { path = "../manifest" }
+builder = { path = "../builder" }
+core = { path = "../core" }
+test = { path = "../test" }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+clap = { workspace = true }
+colored = { workspace = true }
+indicatif = { workspace = true }
+tokio = { workspace = true }

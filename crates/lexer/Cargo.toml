@@ -1,0 +1,13 @@
+[package]
+name = "lexer"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+core = { path = "../core" }
+diagnostics = { path = "../diagnostics" }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+smallvec = { workspace = true }

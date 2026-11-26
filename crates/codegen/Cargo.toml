@@ -1,0 +1,16 @@
+[package]
+name = "codegen"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+hir = { path = "../hir" }
+context = { path = "../context" }
+types = { path = "../types" }
+inkwell = { workspace = true }
+llvm-sys = { workspace = true }
+anyhow = { workspace = true }
+bitflags = { workspace = true }
+smallvec = { workspace = true }

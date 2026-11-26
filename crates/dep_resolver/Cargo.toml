@@ -1,0 +1,11 @@
+[package]
+name = "dep_resolver"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+manifest = { path = "../manifest" }
+semver = { workspace = true }
+anyhow = { workspace = true }

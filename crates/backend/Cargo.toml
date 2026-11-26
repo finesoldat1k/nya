@@ -1,0 +1,16 @@
+[package]
+name = "nya-backend"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+nya-middle = { path = "../nya-middle" }
+nya-core = { path = "../nya-core" }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+inkwell = { workspace = true }
+llvm-sys = { workspace = true }
+bitflags = { workspace = true }
+smallvec = { workspace = true }

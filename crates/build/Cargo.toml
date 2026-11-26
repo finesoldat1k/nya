@@ -1,0 +1,22 @@
+[package]
+name = "nya-build"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+nya-core = { path = "../nya-core" }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+toml = { workspace = true }
+ignore = { workspace = true }
+walkdir = { workspace = true }
+glob = { workspace = true }
+blake3 = { workspace = true }
+xxhash-rust = { workspace = true }
+clap = { workspace = true }
+colored = { workspace = true }
+indicatif = { workspace = true }
+tokio = { workspace = true }

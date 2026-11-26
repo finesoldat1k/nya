@@ -1,0 +1,16 @@
+[package]
+name = "nya-frontend"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+nya-core = { path = "../nya-core" }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+indexmap = { workspace = true }
+smallvec = { workspace = true }
+bitflags = { workspace = true }
+serde = { workspace = true }
+serde_json = { workspace = true }

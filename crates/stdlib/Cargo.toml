@@ -1,0 +1,16 @@
+[package]
+name = "stdlib"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+core = { path = "../core" }
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+serde = { workspace = true }
+parking_lot = { workspace = true }
+indexmap = { workspace = true }
+hashbrown = "0.15"
+ahash = "0.8"

@@ -1,0 +1,13 @@
+[package]
+name = "borrow"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+ty = { path = "../ty" }
+ast = { path = "../ast" }
+diagnostics = { path = "../diagnostics" }
+indexmap = { workspace = true }
+smallvec = { workspace = true }

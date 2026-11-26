@@ -1,0 +1,13 @@
+[package]
+name = "ty"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+resolver = { path = "../resolver" }
+ast = { path = "../ast" }
+diagnostics = { path = "../diagnostics" }
+indexmap = { workspace = true }
+smallvec = { workspace = true }

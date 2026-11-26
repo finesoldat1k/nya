@@ -1,0 +1,16 @@
+[package]
+name = "builder"
+version = { workspace = true }
+edition = { workspace = true }
+license = { workspace = true }
+repository = { workspace = true }
+
+[dependencies]
+manifest = { path = "../manifest" }
+hir = { path = "../hir" }
+codegen = { path = "../codegen" }
+cache = { path = "../cache" }
+dep_resolver = { path = "../dep_resolver" }
+anyhow = { workspace = true }
+indicatif = { workspace = true }
+colored = { workspace = true }
